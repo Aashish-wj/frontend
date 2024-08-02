@@ -21,7 +21,7 @@ const TextInput = ({ onSubmit }) => {
       }
 
       const response = await axios.post(
-        "https://bajaj-backend-ll5g.onrender.com",
+        "https://bajaj-backend-ll5g.onrender.com/bfhl",
         parsedInput
       );
       onSubmit(response.data);
